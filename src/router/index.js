@@ -31,6 +31,17 @@ const routes = [
     },
 
     {
+        path: '/cart',
+        name: 'cart',
+        component: () => import( /* webpackChunkName: "login" */ '../views/Cart.vue'),
+        meta: {
+            //chek is loggedIn
+            requiresAuth: true
+        }
+    },
+
+
+    {
         path: '/history-transaksi',
         name: 'transaksi',
         component: () => import( /* webpackChunkName: "login" */ '../views/HistoryTransaksi.vue'),

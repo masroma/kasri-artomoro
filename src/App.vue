@@ -8,7 +8,7 @@
     <router-view></router-view>
 
     <!-- footer -->
-    <!-- <Footer  v-if="$route.name != 'login'"/> -->
+    <Footer  v-if="$route.name != 'login'"/>
 
   </div>
 </template>

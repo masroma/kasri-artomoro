@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="hidden md:block">
         <div class="w-full justify-between flex items-center bg-orange-500 py-4 fixed top-0 px-5 z-10">
             <div class="logo">
                 <p class="text-base text-white"><span class="font-semibold">Artomoro</span> Kasir</p>
